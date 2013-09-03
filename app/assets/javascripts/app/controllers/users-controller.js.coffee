@@ -1,4 +1,4 @@
-app.controller "UsersController", ($scope, $http, $location, $state, $stateParams) ->
+@UsersController = ['$scope', '$http', '$location', '$state', '$stateParams', ($scope, $http, $location, $state, $stateParams) ->
  
   # =========================================================================
   # Initialize
@@ -90,4 +90,4 @@ app.controller "UsersController", ($scope, $http, $location, $state, $stateParam
  
   return false
 
-  UsersController.$inject = ['$scope', '$http', '$location', '$state', '$stateParams'];
+]

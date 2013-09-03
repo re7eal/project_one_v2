@@ -1,3 +1,3 @@
-app.controller "ApplicationController", ($scope) ->
+@ApplicationController = ['$scope', ($scope) ->
 
-  ApplicationController.$inject = ['$scope'];
+]

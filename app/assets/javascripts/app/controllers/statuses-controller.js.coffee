@@ -1,4 +1,4 @@
-app.controller "StatusesController", ($scope, $http, $location, $state, $stateParams) ->
+@StatusesController = ['$scope', '$http', '$location', '$state', '$stateParams', ($scope, $http, $location, $state, $stateParams) ->
  
   # =========================================================================
   # Initialize
@@ -80,4 +80,4 @@ app.controller "StatusesController", ($scope, $http, $location, $state, $statePa
  
   return false
 
-  StatusesController.$inject = ['$scope', '$http', '$location', '$state', '$stateParams'];
+]

@@ -1,4 +1,4 @@
-app.controller "CommentsController", ($scope, $http, $location, $state, $stateParams) ->
+@CommentsController = ['$scope', '$http', '$location', '$state', '$stateParams', ($scope, $http, $location, $state, $stateParams) ->
  
   # =========================================================================
   # Initialize
@@ -79,4 +79,4 @@ app.controller "CommentsController", ($scope, $http, $location, $state, $statePa
  
   return false
 
-  CommentsController.$inject = ['$scope', '$http', '$location', '$state', '$stateParams'];
+]
