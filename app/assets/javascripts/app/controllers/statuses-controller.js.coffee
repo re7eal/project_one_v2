@@ -79,3 +79,5 @@ app.controller "StatusesController", ($scope, $http, $location, $state, $statePa
     ), (error) ->
  
   return false
+
+  StatusesController.$inject = ['$scope', '$http', '$location', '$state', '$stateParams'];

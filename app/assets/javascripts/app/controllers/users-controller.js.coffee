@@ -89,3 +89,5 @@ app.controller "UsersController", ($scope, $http, $location, $state, $stateParam
     ), (error) ->
  
   return false
+
+  UsersController.$inject = ['$scope', '$http', '$location', '$state', '$stateParams'];

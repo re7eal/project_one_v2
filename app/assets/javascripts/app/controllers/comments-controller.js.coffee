@@ -78,3 +78,5 @@ app.controller "CommentsController", ($scope, $http, $location, $state, $statePa
     ), (error) ->
  
   return false
+
+  CommentsController.$inject = ['$scope', '$http', '$location', '$state', '$stateParams'];
