@@ -21,7 +21,11 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
+gem 'turbolinks'
+
 gem 'jquery-rails', '2.2.1'
+
+gem 'angularjs-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
