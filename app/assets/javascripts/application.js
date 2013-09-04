@@ -13,8 +13,6 @@
 //= require_tree ./jquery
 //= require_tree ./ui
 //= require angularjs/angular
-//= require angularjs/angular-ui-router
 //= require app/main
-//= require_tree ./config
 //= require_tree ./app/controllers
 //= require_self

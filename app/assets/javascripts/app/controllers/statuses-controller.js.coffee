@@ -1,4 +1,4 @@
-@StatusesController = ['$scope', '$http', '$location', '$state', '$stateParams', ($scope, $http, $location, $state, $stateParams) ->
+App.controller 'StatusesController', ['$scope', '$http', '$location', ($scope, $http, $location) ->
  
   # =========================================================================
   # Initialize
@@ -17,7 +17,8 @@
   ), (error) ->
  
   $scope.status = {}
-  if $state.current.name == 'edit'
+  #if $state.current.name == 'edit'
+  $scope.editStatuses = ->
     $http.get("/api/statuses/#{$stateParams['id']}"
  
     # success

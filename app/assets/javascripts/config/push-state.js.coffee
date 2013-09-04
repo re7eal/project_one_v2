@@ -1,2 +1,2 @@
-app.config ($locationProvider) ->
+App.config ($locationProvider) ->
   $locationProvider.html5Mode true

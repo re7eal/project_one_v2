@@ -1,4 +1,4 @@
-@UsersController = ['$scope', '$http', '$location', '$state', '$stateParams', ($scope, $http, $location, $state, $stateParams) ->
+App.controller 'UsersController', ['$scope', '$http', '$location', ($scope, $http, $location) ->
  
   # =========================================================================
   # Initialize

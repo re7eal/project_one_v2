@@ -1,13 +1,13 @@
 # Configure 'app' routing. The $stateProvider and $urlRouterProvider
 # will be automatically injected into the configurator.
-app.config ($stateProvider, $urlRouterProvider) ->
+App.config ($stateProvider, $urlRouterProvider) ->
  
   # Make sure that any other request beside one that is already defined
   # in stateProvider will be redirected to root.
   $urlRouterProvider
     .otherwise("/")
  
-  # Define 'app' states
+  # Define 'App' states
   $stateProvider
     .state "default",
       abstract: true

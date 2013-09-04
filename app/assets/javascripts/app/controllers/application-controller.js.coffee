@@ -1,3 +1,3 @@
-@ApplicationController = ['$scope', ($scope) ->
+App.controller 'ApplicationController', ['$scope', ($scope) ->
 
 ]

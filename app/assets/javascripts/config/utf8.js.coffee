@@ -1,4 +1,4 @@
-app.config ($httpProvider) ->
+App.config ($httpProvider) ->
   $httpProvider.defaults.transformRequest.push (data, headersGetter) ->
     utf8_data = data
     unless angular.isUndefined(data)

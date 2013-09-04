@@ -1,4 +1,4 @@
-@CommentsController = ['$scope', '$http', '$location', '$state', '$stateParams', ($scope, $http, $location, $state, $stateParams) ->
+App.controller 'CommentsController', ['$scope', '$http', '$location', ($scope, $http, $location) ->
  
   # =========================================================================
   # Initialize
@@ -16,7 +16,8 @@
   ), (error) ->
  
   $scope.comment = {}
-  if $state.current.name == 'edit'
+  #if $state.current.name == 'edit'
+  $scope.editComments = ->
     $http.get("/api/comments/#{$stateParams['id']}"
  
     # success
