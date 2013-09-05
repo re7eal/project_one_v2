@@ -45,3 +45,9 @@ gem 'angularjs-rails'
 group :production do
   gem 'pg', '0.12.2'
 end
+
+gem 'jquery-ui-rails'
+
+gem 'twitter-bootstrap-rails'
+
+gem 'designmodo-flatuipro-rails'
